@@ -1,0 +1,45 @@
+<section class="section section-shaped">
+  <div class="shape shape-style-1">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="container py-md">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-5 mb-5 mb-lg-0">
+        <h1 class="font-weight-light">Lo que verás...</h1>
+        <p class="lead mt-4">Con los proyetos que encontrarás a continuación quiero mostarte algunas de mis habilidades, especialmente enfocadas al
+          desarrollo web utilizando JavaScript. La mayoría están construidos en React JS, pero por ejemplo esta página está construida en Angular 7,
+          dando click en cada uno, verás una breve descripción del proyecto con un link a la demo funcional, además en la mayoria verás este ícono <i class="fa fa-github fa-2x"></i>
+          el cual te llevará al repositorio para que puedas darle una ojeada al codigo :&#41;
+        </p>
+      </div>
+      <div class="col-lg-6 mb-lg-auto">
+        <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
+          <ngb-carousel>
+              <ng-template ngbSlide>
+                <img class="img-fluid" src="assets/img/theme/cripto.png" alt="First slide">
+              </ng-template>
+              <ng-template ngbSlide>
+                <img class="img-fluid" src="assets/img/theme/letras.png" alt="Second slide">
+              </ng-template>
+              <ng-template ngbSlide>
+                <img class="img-fluid" src="assets/img/theme/eventos.png" alt="Second slide">
+              </ng-template>
+          </ngb-carousel>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SVG separator -->
+  <div class="separator separator-bottom separator-skew">
+    <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+    </svg>
+  </div>
+</section>
+
+<app-versions-section></app-versions-section>
