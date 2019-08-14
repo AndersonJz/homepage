@@ -19,6 +19,7 @@ import { NucleoSectionComponent } from './nucleo-section/nucleo-section.componen
 import { VersionsSectionComponent } from './versions-section/versions-section.component';
 import { NgbdModalComponent } from './modal/modal.component';
 import { NgbdModalContent } from './modal/modal.component';
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { NgbdModalContent } from './modal/modal.component';
   imports: [
     CommonModule,
     FormsModule,
+    AnimateOnScrollModule.forRoot(),
     NgbModule,
     RouterModule,
     NouisliderModule,

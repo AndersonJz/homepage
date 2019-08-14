@@ -16,6 +16,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 import { FullcrudComponent } from './fullcrud/fullcrud.component';
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { FullcrudComponent } from './fullcrud/fullcrud.component';
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
+    AnimateOnScrollModule.forRoot(),
     FormsModule,
     RouterModule,
     AppRoutingModule,
