@@ -39,7 +39,7 @@ imagen5 = '';
       this.descripcionCorta = 'Busca eventos segun los criterios que escoja el usuario.';
       this.descripcion = 'En este proyecto construido en React JS, el usuario puede escoger una categoría y un criterio como una ciudad ' +
       'o un tema de interes, esta app consume datos de un API llamada EventBrite, y para este caso se utiliza una libreria ' +
-      'llamada Context en la cual se reciben los datos y estos quedas disponibles para cualqier componente que se encierre dentro de ' +
+      'llamada Context en la cual se reciben los datos y estos quedan disponibles para cualqier componente que se encierre dentro de ' +
       'este, Context viene a sustituir a los comúnes "props" de React JS...';
       this.linkDemo = 'https://gracious-heyrovsky-d05971.netlify.com/';
       this.linkGithub = 'https://github.com/AndersonJz/proyectos/tree/master/eventosreact';
@@ -49,9 +49,9 @@ imagen5 = '';
       break;
       case 'domicilios':
       this.titulo = 'Aplicación de Domicilios';
-      this.descripcionCorta = 'Web para administracion de una app de domicilios.';
+      this.descripcionCorta = 'Web para administración de una app de domicilios.';
       this.descripcion = 'Este proyecto es una aplicación desarrollada en el Stack MEAN (MySQL, Express, Node, Angular 7), ' +
-      'esta aplicación permite a los empleados de una empresa hacer inventario, facturacion, gestion de empleados, tener acceso ' +
+      'esta aplicación permite a los empleados de una empresa hacer inventario, facturación, gestión de empleados, tener acceso ' +
       'seguro segun su rol a las funcionalidades del sistema, además de gestionar los pedidos de los usuarios en tiempo real ' +
       'con el uso de sockets, todo esto consumiendo datos de un API rest que construí en Node JS. Al ser este sistema propiedad ' +
       'de una empresa, evidentemente no puedo dejarte los links ni al producto ni al codigo...';
@@ -63,7 +63,7 @@ imagen5 = '';
       break;
       case 'restaurante':
       this.titulo = 'App Restaurante';
-      this.descripcionCorta = 'Aplicacion para gestionar los platillos que se sirven en un restaurante';
+      this.descripcionCorta = 'Aplicación para gestionar los platillos que se sirven en un restaurante';
       this.descripcion = 'Este proyecto es uno de mis favoritos, pues aunque no tiene muchas funcionalidades, ' +
       'es una aplicación diseñada en el stack MERN (MongoDB, Express, React JS, Node Js), por lo que en ella te muestro ' +
       'mis habilidades tanto en Back-end, creando un API rest que se conecta a MongoDB y que responde ' +
@@ -78,9 +78,9 @@ imagen5 = '';
       break;
       case 'buscadorletras':
       this.titulo = 'Buscador de letras de Canciones';
-      this.descripcionCorta = 'Aplicacion para buscar letras de canciones por Artista';
+      this.descripcionCorta = 'Aplicación para buscar letras de canciones por Artista';
       this.descripcion = 'Lo interesante de esta aplicación es la utilización de dos APIs simultaneas, ' +
-      'una para buscar la letra de la cancion que el usuario requiera, y ' +
+      'una para buscar la letra de la canción que el usuario requiera, y ' +
       'otra que toma información de la consulta para buscar información del artista en cuestión... ' +
       'Estas APIs trabajan con mucha informacion por lo que puede tardar un par de segundos en responderte';
       this.linkDemo = 'https://heuristic-poitras-abc5ff.netlify.com';
